@@ -13,9 +13,8 @@ commuction between programmer or user and machine.
 ************
 
 Types of programming languaging 
-/n
-1-High level Language
 
+1-High level Language
 2-Mid level Language
 3-Low level Language
 
