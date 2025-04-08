@@ -38,7 +38,9 @@ It is low level language which is used to communicate  in 0's and 1s with
 machine.
 *************************************************************************
 //Data types in java 
+
 class datatypes{
+
     public static void main(String[] args){
         //intger
         short s=2;   // (Range -32,768 to 32,767) 2 bytes
