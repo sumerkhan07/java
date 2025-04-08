@@ -40,7 +40,6 @@ machine.
 class datatypes{
     public static void main(String[] args){
         //intger
-
         short s=2;   // (Range -32,768 to 32,767) 2 bytes
         long l=3;     // (Range -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807) 8 bytes
         byte b=4;      // (Range -128 to 127) 1 byte
