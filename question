@@ -1,0 +1,32 @@
+// Q3 Largest of Three Numbers Write a Java program that takes three integers as input and prints the largest of the three numbers.
+import java.util.Scanner;
+class Q3{
+	public static void main(String args[]){
+	System.out.println("Enter the three number");
+	Scanner sc= new Scanner(System.in);
+	int num1=sc.nextInt();
+	int num2=sc.nextInt();
+	int num3=sc.nextInt();
+	
+	/*if(num1 >=num2 && num1 >=num3)
+		System.out.println("num1 is greater than "+num1);
+		
+	
+	if(num2 >=num1 && num2 >=num3)
+		System.out.println(num2 +" is greate than");
+	
+	else
+		System.out.println(num3 +"is largest number");
+	*/
+	   int largest;
+        if (num1 >= num2 && num1 >= num3) {
+            largest = num1;
+        } else if (num2 >= num1 && num2 >= num3) {
+            largest = num2;
+        } else {
+            largest = num3;
+        }
+		System.out.println(largest );
+	
+	
+}}
