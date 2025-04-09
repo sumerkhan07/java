@@ -36,7 +36,32 @@ eg.Binary language(0,1)
 Binary language 
 It is low level language which is used to communicate  in 0's and 1s with
 machine.
-*************************************************************************
+
+************************************************************************
+Java is a high level programming language which support OOPS principle.
+Feature of Java
+1-Java is a simple programming language.
+2-Java is a secure language.
+3-Java is a platform independent language.
+4-Java is a Robust language.
+5-Java has automatic garbage collecter.
+6-Java is a portabble language.
+7-Java support multithreading and multi tasking.
+8-Java provides built in library which helps programmer to perform complex task easily.
+9-Java Supports OOPS principle 
+  -Encapsulation
+  -Inheritance 
+  -Polymorphism 
+  -Abstraction
+
+
+Uses of java
+Java is used to develop an application or software such as web application,mobile aplication
+,banking application,J2MEE application etc
+
+[note :- It is also used to develop some tools such as seleneum which is an automation tool].
+
+************************************************************************
 //Data types in java 
 
 class datatypes{
@@ -81,3 +106,6 @@ class datatypes{
 
     }
 }
+
+
+***************************************************************************************
