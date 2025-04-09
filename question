@@ -58,6 +58,27 @@ class Q3{
             largest = num3;
         }
 		System.out.println(largest );
-	
-	
 }}
+
+// Q4 swapping number by using third varibale
+class swap{
+	public static void main(String args[]){
+	int a=10; 
+	int b=20;
+	int c;
+	System.out.println("Before swapping"+a+"\n"+b);
+	c=a;
+	a=b;
+	b=c;
+	
+	//without using third varible
+	System.out.println("After swapping number "+a+"\n"+b);
+	int x=10;
+	int y=20;
+	x=x+y;
+	y=x-y;
+	x=x-y;
+	System.out.println("x "+x+"\ny "+y);
+
+	
+	}}
