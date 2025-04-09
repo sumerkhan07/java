@@ -79,6 +79,45 @@ class swap{
 	y=x-y;
 	x=x-y;
 	System.out.println("x "+x+"\ny "+y);
-
-	
 	}}
+
+//Q5 Print even numbers from 1 to 100
+class Q5{
+	public static void main(String args[]){
+		int i;
+		
+		for(i=1; i<101; i++)
+			if(i%2==0)
+			System.out.print(i+"\t");
+	}
+}
+
+
+
+// Q6 Print the multiplication table of a given number.
+import java.util.Scanner;
+class Q6{
+	public static void main(String args[]){
+		Scanner sc=new Scanner(System.in);
+		
+		int s=sc.nextInt();
+		for(int i=1; i<11; i++)
+			System.out.println(s*i);		
+	}
+}
+
+
+
+//Q7 Print this pattern
+class Q7{
+	public static void main(String args[]){
+	for(int i=0; i<10; i++)
+	{
+		for (int j=1; j<=i; j++){
+			System.out.print("*");
+		}
+	
+	System.out.println();
+}}}
+
+
