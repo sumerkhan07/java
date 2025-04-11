@@ -1,63 +1,74 @@
 # java
-Full stack java notes
-Program
+Full stack java notes<br>
+Program<br>
 The set of instruction or block of code known as  program.
-************
 
-Language 
+<br>Language 
 A language is medium which is used for communication purpose.
-************
+<br>
 Programming Language
 A language is used to write a set of instruction in order to 
 commuction between programmer or user and machine.
-************
+<br>
+<br>
 
 Types of programming languaging 
 
 1-High level Language
+<br>
 2-Mid level Language
+<br>
 3-Low level Language
+<br>
 
-
+<br>
 1-High level Language
 A programming language  which is easily understable and readeable by
 user or programmer known as high level language.
 eg. Java , Python,C,C++
-
+<br>
 2-Mid level Language
 A languae whcih is not understable by user or programmer nor by machine 
 Known as mid level  language.
 eg. byte code 
 
+<br>
 3-Low level languae
 A langauage which is understandable by machine known as low level  Language.
 eg.Binary language(0,1)
 
+<br>
 Binary language 
 It is low level language which is used to communicate  in 0's and 1s with
 machine.
+<br>
 
+<br>
+--Histroy of java--
+Java is develop by GAMES GOSLING and his team in the year 1991 under a company 
 ************************************************************************
-Java is a high level programming language which support OOPS principle.
+Java is a high level programming language which support OOPS principle.<br>
 Feature of Java
-1-Java is a simple programming language.
-2-Java is a secure language.
-3-Java is a platform independent language.
-4-Java is a Robust language.
-5-Java has automatic garbage collecter.
-6-Java is a portabble language.
-7-Java support multithreading and multi tasking.
-8-Java provides built in library which helps programmer to perform complex task easily.
-9-Java Supports OOPS principle 
-  -Encapsulation
-  -Inheritance 
-  -Polymorphism 
-  -Abstraction
+<br>
+1-Java is a simple programming language.<br>
+2-Java is a secure language.<br>
+3-Java is a platform independent language.<br>
+4-Java is a Robust language.<br>
+5-Java has automatic garbage collecter.<br>
+6-Java is a portabble language.<br>
+7-Java support multithreading and multi tasking.<br>
+8-Java provides built in library which helps programmer to perform complex task easily.<br>
+9-Java Supports OOPS principle <br>
+  -Encapsulation<br>
+  -Inheritance <br>
+  -Polymorphism <br>
+  -Abstraction <br>
 
-
+<br>
 Uses of java
 Java is used to develop an application or software such as web application,mobile aplication
 ,banking application,J2MEE application etc
+<br>
 
 [note :- It is also used to develop some tools such as seleneum which is an automation tool].
 
