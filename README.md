@@ -44,9 +44,9 @@ machine.
 <br>
 
 <br>
---Histroy of java--
+--Histroy of java
 Java is develop by GAMES GOSLING and his team in the year 1991 under a company 
-************************************************************************
+<br>
 Java is a high level programming language which support OOPS principle.<br>
 Feature of Java
 <br>
