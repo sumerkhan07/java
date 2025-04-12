@@ -55,7 +55,8 @@ The 1st version of Java was released in the year 1995 named as java alphabeta.
 <br>
 In 1996 a new version is releasd JDK 1.0 and they keep on releasing new versios.
 <br>
-![image](https://github.com/user-attachments/assets/db651eba-fddc-434b-b2a0-ab9633fd14c1)
+![ChatGPT Image Apr 12, 2025, 02_27_51 PM](https://github.com/user-attachments/assets/d789cbdb-85b3-405d-8b84-fe04bd2c61ee)
+
 
                             
 <br>
