@@ -23,17 +23,20 @@ Types of programming languaging
 
 <br>
 1-High level Language
+<br>
 A programming language  which is easily understable and readeable by
 user or programmer known as high level language.
 eg. Java , Python,C,C++
 <br>
 2-Mid level Language
+<br>
 A languae whcih is not understable by user or programmer nor by machine 
 Known as mid level  language.
-eg. byte code 
+eg. byte code <br>
 
 <br>
 3-Low level languae
+<br>
 A langauage which is understandable by machine known as low level  Language.
 eg.Binary language(0,1)
 
@@ -62,7 +65,7 @@ Platform Independent  Language
 An application which is develop in one platfrom using programming language,if it can use
 any other platform is then we call this Pltform Independent Programming language.
 <br>
-Simple Definition:<br>
+Simple Definition: <br>
 Platform independent means the ability of a program to work on any operating system or hardware platform.
   <br>     
 <br>
