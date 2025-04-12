@@ -44,7 +44,8 @@ machine.
 <br>
 
 <br>
---Histroy of java
+Histroy of java
+<br>
 Java is develop by GAMES GOSLING and his team in the year 1991 under a company SUN MICRO SYSTEM.<br>by 
 Initillay the name of this language was GREEN TALK, letter they have changed the name from GREEN TALK to OAK.
 <br>
@@ -56,8 +57,14 @@ The 1st version of Java was released in the year 1995 named as java alphabeta.
 In 1996 a new version is releasd JDK 1.0 and they keep on releasing new versios.
 <br>
 
-
-                            
+Platform Independent  Language 
+<br>
+An application which is develop in one platfrom using programming language,if it can use
+any other platform is then we call this Pltform Independent Programming language.
+<br>
+Simple Definition:<br>
+Platform independent means the ability of a program to work on any operating system or hardware platform.
+  <br>     
 <br>
 Java is a high level programming language which support OOPS principle.<br>
 Feature of Java
