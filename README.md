@@ -45,7 +45,19 @@ machine.
 
 <br>
 --Histroy of java
-Java is develop by GAMES GOSLING and his team in the year 1991 under a company 
+Java is develop by GAMES GOSLING and his team in the year 1991 under a company SUN MICRO SYSTEM.<br>by 
+Initillay the name of this language was GREEN TALK, letter they have changed the name from GREEN TALK to OAK.
+<br>
+Since the name OAK is already taken by some other organization again they changed name from OAK to JAVA.
+<br>
+The name  JAVA come from Java bean.<br>
+The 1st version of Java was released in the year 1995 named as java alphabeta.
+<br>
+In 1996 a new version is releasd JDK 1.0 and they keep on releasing new versios.
+<br>
+![image](https://github.com/user-attachments/assets/db651eba-fddc-434b-b2a0-ab9633fd14c1)
+
+                            
 <br>
 Java is a high level programming language which support OOPS principle.<br>
 Feature of Java
