@@ -185,3 +185,21 @@ class Q11
 		}
 	}
 }
+
+// Q12 Simple interest is calculated with the following formula: S.I. = (P × R × T)/100,<br>
+//where P = Principal, R = Rate of Interest in % per annum, and T = Time, ...
+
+import java.util.Scanner;
+class Q12
+{
+	public static void main(String[] args){
+		int Si;
+		Scanner Sc= new Scanner(System.in);
+		int p=Sc.nextInt();
+		int r=Sc.nextInt();
+		int t=Sc.nextInt();
+		Si=(p*r*t)/100;
+		System.out.println(Si);
+	
+	}
+}
