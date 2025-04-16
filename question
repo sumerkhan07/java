@@ -203,3 +203,16 @@ class Q12
 	
 	}
 }
+
+//Q13 Input currency in rupees and output in USD
+import java.util.Scanner;
+class Q13
+{
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.print("INR");
+		int INR=sc.nextInt();
+		int USD=INR/88;
+			System.out.println("USD  \t"+USD);
+		}
+}
