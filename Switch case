@@ -8,6 +8,21 @@ When a match is found, the code inside that case runs, and the break statement p
 If no case matches, the default block is executed."
 
 
+switch (expression) {
+    case value1:
+        // Code to execute if expression == value1
+        break; // Optional, but recommended to avoid fall-through
+    case value2:
+        // Code to execute if expression == value2
+        break;
+    case value3:
+        // Code to execute if expression == value3
+        break;
+    default:
+        // Code to execute if no case matches
+}
+
+
 import java.util.Scanner;
 class menu
 {
