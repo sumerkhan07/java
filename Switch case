@@ -1,0 +1,66 @@
+If they ask you "What is a switch case?" in an interview, here's how you can answer clearly and confidently:
+<br>
+A switch statement is a control structure used when we want to execute one block of code among many options based on the value of a variable or expression.
+
+Instead of writing multiple if-else statements, we can use switch to make the code more readable and organized.
+It checks the value of the expression and matches it with the case labels. <br>
+When a match is found, the code inside that case runs, and the break statement prevents the rest of the cases from executing. <br>
+If no case matches, the default block is executed."
+
+
+import java.util.Scanner;
+class menu
+{
+	public static void main(String[] args){
+	 Scanner sc=new Scanner(System.in);
+	 System.out.println("Enter the menu code");
+	 int menucode=sc.nextInt();
+	 
+	 switch (menucode)
+	 {
+	 case 1:
+		 System.out.println("Poha");
+		break;
+	 case 2:
+		 System.out.println("dosa");
+	 break;
+	 case 3:
+		 System.out.println("chai");
+	 break;
+	 case 4:
+		 System.out.println("cofee");
+	 break;
+	 default :
+		 System.out.println("Enter the correct ");
+	 }
+	}
+}
+
+
+import java.util.Scanner;
+class  fruits 
+
+{
+	public static void main(String[] args) 
+	{
+		Scanner Sc=new Scanner(System.in);
+		String frt=Sc.nextLine();
+		switch(frt){
+			case "Mango":
+				System.out.println("You want mango");
+			break;
+			
+			case "Apple":
+				System.out.println("You want apple");
+			break;
+			
+			case  "Kv":
+				System.out.println("You want Kv");
+			break;
+			
+			default :
+				System.out.println("Enter correct ");
+		}
+   
+	}
+}
