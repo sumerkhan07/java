@@ -80,4 +80,39 @@ class  fruits
 		}
    
 	}
+
+
+
+import java.util.Scanner;
+
+public class grade {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter marks: ");
+        int marks = sc.nextInt();
+        
+        char grade;
+        
+        switch(marks / 10) {  // Dividing marks by 10 to simplify the case checks
+            case 10:
+            case 9:
+                grade = 'A';
+                break;
+            case 8:
+            case 7:
+                grade = 'B';
+                break;
+            case 6:
+            case 5:
+                grade = 'C';
+                break;
+            default:
+                grade = 'F';
+        }
+        
+        System.out.println("Grade: " + grade);
+    }
+}
+
 }
