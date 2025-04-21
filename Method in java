@@ -1,0 +1,6 @@
+Java in  Method.<br>
+A method in Java is a block of code that performs a specific task.
+It is similar to a function in other programming languages.<br>
+You define a method once, and you can use (or "call") it multiple times.<br>
+This helps avoid repetition, makes the code cleaner, and improves reusability.
+
