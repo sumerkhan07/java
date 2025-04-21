@@ -3,4 +3,26 @@ A method in Java is a block of code that performs a specific task.
 It is similar to a function in other programming languages.<br>
 You define a method once, and you can use (or "call") it multiple times.<br>
 This helps avoid repetition, makes the code cleaner, and improves reusability.
+<br>
+Syntax of method 
+returnType methodName(parameter1, parameter2, ...) {
+    // method body (statements)
+    return value; // if returnType is not void
+}
+<br>
+//Example
+public class Calculator {
+    // method definition
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+        Calculator obj = new Calculator();
+        int result = obj.add(10, 5);
+        System.out.println("Sum is: " + result);
+    }
+}
+
+
 
