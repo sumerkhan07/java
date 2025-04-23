@@ -4,14 +4,12 @@ It is similar to a function in other programming languages.<br>
 You define a method once, and you can use (or "call") it multiple times.<br>
 This helps avoid repetition, makes the code cleaner, and improves reusability.
 <br>
-Why use method.<br>
-To organize code logically<br>
-To avoid repetition<br>
-To divide a large program into smaller, manageable parts<br>
-To reuse the same logic multiple times<br>
-
-<br>
-Makes debugging and testing easier
+Why use method.   <br>
+To organize code logically  <br>
+To avoid repetition         <br>
+To divide a large program into smaller, manageable parts   <br>
+To reuse the same logic multiple times.            <br>
+Makes debugging and testing easier     <br>
 Syntax of method 
 returnType methodName(parameter1, parameter2, ...) {
     // method body (statements)
@@ -40,3 +38,20 @@ methodName                     	Any valid name following Java naming rules
 parameters                   	Input values (optional). Also called arguments
 method body                 	Actual block of code that performs the task
 return	                        Sends back the result (not used if returnType is void)
+
+// greet 
+import java.util.Scanner;
+class greet
+{
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		String ss=sc.next();
+	String st=str(ss);
+	System.out.println(st);
+	}
+	static String str(String greeting)
+	{
+		//System.out.println("Hello "+greeting);
+		return greeting;
+	}
+}
