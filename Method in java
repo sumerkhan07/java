@@ -79,3 +79,26 @@ class m1{
 
 <br>
 2) BY using object method 
+
+class m2{
+		public static void main(String[] args){
+			int x=10,y=20;
+			System.out.println(max(x,y));
+			m2  m=new m2();
+				System.out.println(m.min(x,y));
+		}
+		public static int max(int a, int b){
+			if(a> b)
+				return a;
+			else
+				return b;
+				
+			}
+		int min(int a, int b){
+			if(a<b)
+				return a;
+			else
+				return b;
+			
+		}
+}
