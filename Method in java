@@ -55,3 +55,27 @@ class greet
 		return greeting;
 	}
 }
+
+
+we can call method in  two ways<br>
+1) By usnig static method <br>
+	BY using static method we the method directly.<br>
+<br>
+Eg.
+
+class m1{
+		public static void main(String[] args){
+			int x=10,y=20;
+			System.out.println(max(x,y));
+		}
+		public static int max(int a, int b){
+			if(a> b)
+				return a;
+			else
+				return b;
+				
+			}
+}
+
+<br>
+2) BY using object method 
