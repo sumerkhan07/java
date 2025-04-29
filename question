@@ -216,3 +216,30 @@ class Q13
 			System.out.println("USD  \t"+USD);
 		}
 }
+/*Write a program to print the factorial of a number by defining a method named 'Factorial'.
+Factorial of any number n is represented by n!*/
+class mfact
+{
+	public static void main(String[] args){
+	
+		System.out.println(fact(5));
+			System.out.println(fact2(5));
+	}
+	public static int fact(int num){
+		int f=1;
+
+		for(int i=1; i<=num; i++){
+			f=f*i;
+		}
+		return f;
+	}
+	public static int fact2(int num){
+		int f=1;
+		int i=1;
+		while(i <=num){
+			f=f*i;
+			i++;
+		}
+		return f;
+	}
+}
