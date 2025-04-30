@@ -127,3 +127,8 @@ class Calculator {
         return a + b + c;
     }
 }
+
+Why Use Method Overloading?<br>
+Improves Readability (same method name for similar actions).<br>
+Avoids Complex Naming (no need for addTwoNumbers, addThreeNumbers).<br>
+Supports Polymorphism (compile-time/static polymorphism).<br>
