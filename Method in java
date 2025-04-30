@@ -104,3 +104,23 @@ class m2{
 }
 <br>
 In  class having a diffrent method  we can give the same varible to he method.
+
+<br>
+Function Overloading (Method Overloading) in Java<br>
+Function overloading (or method overloading) is a feature in Java that allows a class to have multiple methods with the same name but different parameters.<br>
+It improves code readability and reusability by letting methods perform similar tasks in different ways.<br>
+
+Key Points About Method Overloading
+Same Method Name
+
+Multiple methods share the same name.
+
+Different Parameters
+
+Must differ in:
+
+Number of parameters
+
+Data types of parameters
+
+Order of parameters (if types are different)
