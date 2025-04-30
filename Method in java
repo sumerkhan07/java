@@ -110,17 +110,20 @@ Function Overloading (Method Overloading) in Java<br>
 Function overloading (or method overloading) is a feature in Java that allows a class to have multiple methods with the same name but different parameters.<br>
 It improves code readability and reusability by letting methods perform similar tasks in different ways.<br>
 
-Key Points About Method Overloading
-Same Method Name
+Key Points About Method Overloading<br?
+Same Method Name<br>
+Multiple methods share the same name.<br>
+Different Parameters<br>
+Must differ in:<br>
+Number of parameters<br>
+Data types of parameters<br>
+Order of parameters (if types are different)<br>
 
-Multiple methods share the same name.
-
-Different Parameters
-
-Must differ in:
-
-Number of parameters
-
-Data types of parameters
-
-Order of parameters (if types are different)
+class Calculator {
+    int add(int a, int b) {          // 2 parameters
+        return a + b;
+    }
+    int add(int a, int b, int c) {   // 3 parameters
+        return a + b + c;
+    }
+}
