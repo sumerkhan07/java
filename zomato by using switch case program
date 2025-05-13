@@ -1,0 +1,102 @@
+import java.util.Scanner;
+class zomato
+{
+	public static void main(String[] args){
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Welcome to Zomato .....");
+		System.out.println("Press 1 for Brakfast");
+		System.out.println("Press 2 for Lunch ");
+		System.out.println("Press 3 for Dinner");
+		int select=sc.nextInt();
+		switch(select){
+			case 1:
+			{
+				System.out.println("You choose  Breakfast ");
+			    System.out.println("1.POHA \n 2.DOSA \n 3.CHAI \n 4.Omelette \n 5.Idli");
+				int ch=sc.nextInt();
+				switch(ch){
+					    case 1:
+					{
+						 System.out.println("POHA ...Order Successfull");
+						 break;
+					}
+						case 2:
+					{
+						 System.out.println("DOSA ...Order Successfull");
+						 break;
+					}
+						case 3:
+					{
+						 System.out.println("CHAI ...Order Successfull");
+						 break;
+					}
+					case 4:{
+						System.out.println("Omelette...Order Sucessfull");
+					break;
+					}
+					case 5:
+						{
+						System.out.println("Idli...Order Sucessfull");
+			       		break;
+		         	}}
+					
+		        break;
+		   }
+		     	case 2:
+			{
+				System.out.println("You choose  Lunch ");
+				System.out.println("1.Sandwiches \n 2. Homemade pizza  \n 3. Rice paper rolls");
+  		      
+				int ch1=sc.nextInt();
+				switch(ch1){
+					    case 1:
+					{
+						 System.out.println("Sandwiches ...Order Successfull");
+						 break;
+					}
+						case 2:
+					{
+						 System.out.println("Homemade pizza ...Order Successfull");
+						 break;
+					}
+						case 3:
+					{
+						 System.out.println("Rice paper rolls ...Order Successfull");
+						 break;
+					}}
+					  break;
+		   }
+		   	case 3:
+			{
+				System.out.println("You choose Dinner ");
+			    System.out.println(" \n 1.Biryani  \n 2.Veg Thali \n 3.Chiken Thali");
+		        int ch2=sc.nextInt();
+				switch(ch2){
+					    case 1:
+					{
+						 System.out.println("Biryani ...Order Successfull");
+						 break;
+					}
+						case 2:
+					{
+						 System.out.println("Veg thali ...Order Successfull");
+						 break;
+					}
+						case 3:
+					{
+						 System.out.println("Chiken thali ...Order Successfull");
+						 break;
+					}}
+				break; 
+				
+		   }
+		   default:
+			{
+					
+				System.out.println("Enter the correct number ");
+			 
+			}
+			
+		}
+	}
+}
