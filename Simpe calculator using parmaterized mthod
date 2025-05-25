@@ -1,0 +1,62 @@
+import java.util.Scanner;
+class J1{
+public static void main(String[] args ){
+	System.out.println("Hello Java ");
+	Scanner sc =new Scanner(System.in);
+	System.out.println("Enter the operator  + - * / % ");
+	char ch=sc.next().charAt(0);
+	System.out.println("Enter the numebr ");
+	int num1=sc.nextInt();
+	int num2=sc.nextInt();
+	int n=1;
+	System.out.println("for continue press 1 else press any ");
+	
+	switch(ch){
+		case '+':
+		{
+		   add(num1,num2);
+		}
+		break;
+		case '-':
+		{
+		   sub(num1,num2);
+		}
+		break;
+	    case '*':
+		{
+		   mul(num1,num2);
+		}
+		break;
+		case '/':
+		{
+		   div(num1,num2);
+		}
+		break;
+		case '%':
+		{
+		   mod(num1,num2);
+		}
+		break;
+		default:
+		System.out.println("Not a correct  number");
+	}
+
+
+}
+	public static void add(int a, int b){
+	 System.out.println(a+b);
+   }
+   public static void sub(int a, int b){
+	 System.out.println("sub " + (a-b));
+   }
+   public static void mul(int a, int b){
+	 System.out.println("mul " +a*b);
+   }
+   public static void div(int a, int b){
+       System.out.println("div " +a/b);
+   }
+   public static void mod(int a, int b){
+	 System.out.println("mod " +a%b);
+   }
+   
+}
