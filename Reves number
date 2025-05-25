@@ -1,0 +1,14 @@
+class rev {
+    public static void main(String[] args) {
+        int num = 227103;
+        int ans = 0;
+
+        while (num > 0) {
+            int rem = num % 10;        // Get last digit
+            ans = (ans * 10) + rem;    // Append it to result
+            num = num / 10;            // Remove last digit
+        }
+
+        System.out.println("Reversed number: " + ans);
+    }
+}
