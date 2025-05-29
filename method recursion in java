@@ -1,0 +1,33 @@
+*Method recursion in java
+Method recursion means  method calling to itself or another Method is known as Method recursion.
+
+TYPES OF METHOD IN JAVA 
+1.Direct method 
+2.Indirect Method 
+
+1-- Direct Recursion
+A method is calling it self it known as direct recursion.
+In direct recursion the calling method and called method is same.
+
+
+class directMethod{
+	public static void main(String[] args){
+		System.out.println("Main  method start");
+		num(10);//method calling statement 
+		System.out.println("Main method end");
+	}
+	public static void num(int n){
+		System.out.println("Er suemr khan");
+		System.out.println(n);//In direct recursion method calling and mthod called are same
+		num(n);//recrsive call statement
+	}
+}
+
+Problem in the Code: Infinite Recursion
+
+The method num(n) calls itself again and again without any stopping condition (no if or return to stop it).
+This is called infinite recursion.
+Eventually, the Java Virtual Machine (JVM) will run out of stack memory and throw a:
+
+
+
