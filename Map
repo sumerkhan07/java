@@ -1,0 +1,19 @@
+In Java, a Map is a part of the Collection Framework, but it doesn't directly extend the Collection interface
+because it stores data differently — as key-value pairs.
+A Map allows you to store, retrieve, and manipulate data where each piece of data (value) is associated with a unique key.
+This makes it very useful when you want to quickly look up information based on a key.
+
+📦 Key Characteristics of Map
+Stores key-value pairs – Every value is associated with a unique key.
+Keys are unique – No two keys can be the same.
+Values can be duplicated – Multiple keys can have the same value.
+Allows fast retrieval – Lookup is efficient.
+Implementations may or may not be ordered depending on the class.
+
+✅ Main Implementations of Map
+Implementation	Description
+HashMap	Stores key-value pairs with hashing. Fast, unordered, allows one null key and multiple null values.
+LinkedHashMap	Maintains insertion order. Good when order matters.
+TreeMap	Stores in sorted order by keys. Implemented as a red-black tree.
+Hashtable	Synchronized version of HashMap. Legacy class.
+ConcurrentHashMap	Thread-safe version optimized for concurrency.
