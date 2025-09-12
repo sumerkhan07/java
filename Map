@@ -17,3 +17,14 @@ LinkedHashMap	Maintains insertion order. Good when order matters.
 TreeMap	Stores in sorted order by keys. Implemented as a red-black tree.
 Hashtable	Synchronized version of HashMap. Legacy class.
 ConcurrentHashMap	Thread-safe version optimized for concurrency.
+
+Map Interface – Important Methods
+Method                                          	Description
+put(K key, V value)                       	Adds or updates a key-value pair.
+get(Object key)                           	Retrieves the value associated with the key.
+remove(Object key)                        	Removes the key and its value.
+containsKey(Object key)                   	Checks if the key exists.
+containsValue(Object value)	                Checks if a value exists.
+keySet()	                                  Returns all keys as a set.
+values()	                                  Returns all values as a collection.
+entrySet()	                                Returns all key-value pairs.
