@@ -28,3 +28,33 @@ containsValue(Object value)	                Checks if a value exists.
 keySet()	                                  Returns all keys as a set.
 values()	                                  Returns all values as a collection.
 entrySet()	                                Returns all key-value pairs.
+
+
+
+import java.util.*;
+public class MapExample {
+    public static void main(String[] args) {
+        // Creating a HashMap
+        Map<String, Integer> studentMarks = new HashMap<>();
+
+        // Adding key-value pairs
+        studentMarks.put("Alice", 90);
+        studentMarks.put("Bob", 85);
+        studentMarks.put("Charlie", 95);
+        studentMarks.put("Bob", 88); // Updating Bob's score
+
+        // Accessing value by key
+        System.out.println("Alice's marks: " + studentMarks.get("Alice"));
+
+        // Checking if a key exists
+        if (studentMarks.containsKey("Charlie")) {
+            System.out.println("Charlie's marks: " + studentMarks.get("Charlie"));
+        }
+
+        // Iterating through the map
+        for (Map.Entry<String, Integer> entry : studentMarks.entrySet()) {
+            System.out.println(entry.getKey() + " scored " + entry.getValue());
+        }
+    }
+}
+
