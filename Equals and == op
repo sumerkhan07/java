@@ -1,0 +1,29 @@
+          +-----------------------------+
+          |         Java Objects        |
+          +-----------------------------+
+                   /             \
+                  /               \
+           == Operator          .equals() Method
+          (Reference Check)       (Content Check)
+         ----------------       -----------------
+         Checks if two objects   Checks if the contents
+         point to the same        of two objects are same
+         memory location
+         
+Example:
+String s1 = new String("Java");
+String s2 = new String("Java");
+
+s1 == s2        --> false  (different objects)
+s1.equals(s2)   --> true   (same content)
+
+String s3 = "Java";
+String s4 = "Java";
+
+s3 == s4        --> true   (string pool, same reference)
+s3.equals(s4)   --> true   (same content)
+
+
+Use == for primitives or checking if two references point to same object.
+Use .equals() for checking actual content/value of objects.
+Many classes (like String, Integer, ArrayList) override .equals() for content comparison.
